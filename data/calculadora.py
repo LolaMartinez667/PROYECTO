@@ -39,7 +39,8 @@ def calculadora():
             elif opcion == "4":
                 operador = "*"
             print(calculos(operador, num1, num2, historial))
-        if opcion == "5":
+            continue
+        elif opcion == "5":
             print("\nHistorial de operaciones:")
             print(mostrar_historial(historial))
         elif opcion == "6":
@@ -47,7 +48,6 @@ def calculadora():
             break
         else:
             print("Opcion invalida")
-if __name__ == "__main__":
-    calculadora()
+
     
 
